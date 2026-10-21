@@ -1,0 +1,6 @@
+2.8M chars
+25.7M params
+it 0 train 0.642 val 0.675 lr 5.0e-07 3s
+it 500 train 0.451 val 0.498 lr 1.6e-05 126s
+it 600 train 0.438 val 0.492 lr 1.0e-05 152s
+best val 0.49155403226614

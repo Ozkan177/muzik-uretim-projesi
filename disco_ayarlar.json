@@ -1,0 +1,28 @@
+{
+  "_aciklama": {
+    "bpm": "Get Lucky 116.",
+    "ton_kaydir": "2 = Si minor (Get Lucky'nin tonu). son_nakarat_ton: son nakaratta kac yarim ses yukari (90'lar pop hilesi).",
+    "soru_sira": "Verse sorusu: 0 = en iyi, 1, 2 ... baska modeller cumleleri. Nakarat sorusu otomatik olarak baska bir ezgiden ve daha yuksekten secilir.",
+    "soru_min_aralik": "Soru cumlesinin en az kac yarim seslik alana yayilsin (buyuk = daha hareketli melodi).",
+    "tohum / sicaklik": "Modelin cevaplari: tohumu degistir, model ayni soruya baska cevaplar yazar.",
+    "seviye": "Karisim: vokal (robot ses), gitar, bas, davul, klavye_yayli, efekt.",
+    "rhodes_ses / yayli_ses / brass_ses": "[bank, program] MuseScore sesleri."
+  },
+  "model": "ckpt/makam.pt",
+  "makam": "buselik",
+  "tonik": 9,
+  "ezgi_klasoru": "makam_candidates_house*/*.json",
+  "soru_sira": 0,
+  "soru_min_aralik": 5,
+  "tohum": 11,
+  "sicaklik": 0.95,
+  "bpm": 116,
+  "ton_kaydir": 2,
+  "son_nakarat_ton": 1,
+  "rhodes_ses": [0, 4],
+  "yayli_ses": [17, 48],
+  "brass_ses": [0, 61],
+  "ses_bankasi": "tools/MS_Basic.sf3",
+  "seviye": {"vokal": 0.75, "gitar": 0.45, "bas": 0.8, "davul": 0.85, "klavye_yayli": 0.5, "efekt": 0.3},
+  "cikis": "final/disco"
+}

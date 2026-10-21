@@ -1,0 +1,30 @@
+{
+  "_aciklama": {
+    "bpm": "Tempo. Mahmut Orhan tarzi icin 118-124.",
+    "ezgi_klasoru / tonik": "Modelin urettigi ezgilerin klasoru ve tonigi (buselik = La = 9).",
+    "hook_sira": "0 = en iyi puanli hook. 1, 2, 3 ... = siradaki adaylar (calistirinca liste yazilir).",
+    "ton_kaydir": "Yarim ses kaydirma (-2 daha koyu).",
+    "piyano_ses / vokal_ses": "[bank, program]. piyano [0,0]; vokal pad [17,91] space voice, [17,89] warm pad.",
+    "olcu": "Bolum uzunluklari (olcu, her olcu 4 vurus).",
+    "dinamik": "0-1 bolum bolum: pluck, piyano, vokal pad.",
+    "seviye": "Karisim: pluck, piyano, vokal, bas, davul, perkusyon, efekt.",
+    "pompa": "0-1 sidechain pompalama."
+  },
+  "bpm": 121,
+  "ezgi_klasoru": "makam_candidates_house",
+  "tonik": 9,
+  "hook_sira": 1,
+  "ton_kaydir": 0,
+  "piyano_ses": [0, 0],
+  "vokal_ses": [17, 91],
+  "ses_bankasi": "tools/MS_Basic.sf3",
+  "olcu": {"giris": 8, "tema": 16, "breakdown": 8, "drop": 16, "final": 8},
+  "dinamik": {
+    "pluck": {"giris": 0, "tema": 0.8, "breakdown": 0, "drop": 1.0, "final": 0.7},
+    "piyano": {"giris": 0.5, "tema": 0.6, "breakdown": 0.8, "drop": 0.75, "final": 0.5},
+    "vokal": {"giris": 0.5, "tema": 0.55, "breakdown": 0.9, "drop": 0.7, "final": 0.5}
+  },
+  "seviye": {"pluck": 0.7, "piyano": 0.35, "vokal": 0.35, "bas": 0.8, "davul": 0.9, "perkusyon": 0.3, "efekt": 0.3},
+  "pompa": 0.6,
+  "cikis": "final/house_2"
+}

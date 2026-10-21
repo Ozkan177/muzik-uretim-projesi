@@ -1,0 +1,28 @@
+{
+  "_aciklama": {
+    "soru_sira": "0 = en iyi soru cumlesi; 1, 2, ... siradaki adaylar.",
+    "tohum": "Modelin cevaplari icin rastgelelik tohumu. Degistirince model ayni soruya baska cevaplar yazar.",
+    "sicaklik": "Modelin cesareti: 0.8 temkinli, 1.0 daha sasirtici cevaplar.",
+    "doruk_ton": "Doruk bolumunde ton kac yarim ses yukari cikar (2 = bir tam ses).",
+    "dinamik / dinamik_pad": "0-1 bolum bolum karakterlerin ve pad'in gucu.",
+    "seviye": "Karisim: pluck, piyano, vokal, bas, davul, perkusyon, efekt.",
+    "piyano_ses / vokal_ses": "[bank, program] MuseScore sesleri."
+  },
+  "model": "ckpt/makam.pt",
+  "makam": "buselik",
+  "tonik": 9,
+  "ezgi_klasoru": "makam_candidates_house",
+  "soru_sira": 0,
+  "tohum": 7,
+  "sicaklik": 0.9,
+  "bpm": 121,
+  "doruk_ton": 2,
+  "piyano_ses": [0, 0],
+  "vokal_ses": [17, 91],
+  "ses_bankasi": "tools/MS_Basic.sf3",
+  "dinamik": {"giris": 0.5, "konusma": 0.75, "yakinlasma": 0.85, "doruk": 1.0, "final": 0.6},
+  "dinamik_pad": {"giris": 0.6, "konusma": 0.55, "yakinlasma": 0.9, "doruk": 0.7, "final": 0.6},
+  "seviye": {"pluck": 0.7, "piyano": 0.55, "vokal": 0.35, "bas": 0.8, "davul": 0.85, "perkusyon": 0.3, "efekt": 0.3},
+  "pompa": 0.55,
+  "cikis": "final/konusma"
+}

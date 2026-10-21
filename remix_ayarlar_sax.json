@@ -1,0 +1,30 @@
+{
+  "_aciklama": {
+    "bpm": "Tempo. Deep house icin 118-124.",
+    "melodi": "Modelin urettigi ezgi (ezgiler/ klasorunden). huzun_ dosyalari minor ve hüzünlü.",
+    "genislet / sadelestir": "genislet 2 = ezgi hizli ritmin ustunde yavas suzulur. sadelestir 0.25 = kisa susleri temizler.",
+    "ton_kaydir": "Yarim ses kaydirma.",
+    "melodi_ses / pluck_ses / pad_ses": "[bank, program]. [17,77] ney benzeri, [17,65] alto sax, [17,40] keman, [17,73] flut. pluck: [0,46] arp, [0,108] kalimba, [0,107] koto. pad: [17,89] warm pad, [17,91] space voice.",
+    "olcu": "Bolum uzunluklari (olcu). Her olcu 4 vurus.",
+    "dinamik": "0-1, bolum bolum melodi ve pad gucu (gecisler 1 olcude yumusak).",
+    "seviye": "Karisim seviyeleri: melodi, pad, bas, davul, efekt (riser/crash).",
+    "pompa": "0-1 sidechain: pad ve bas kick'te ne kadar 'nefes alsin'."
+  },
+  "bpm": 122,
+  "melodi": "ezgiler/huzun_13_nihavent_sarki_duyek_014.json",
+  "genislet": 2,
+  "sadelestir": 0.25,
+  "ton_kaydir": 0,
+  "melodi_ses": [17, 65],
+  "pluck_ses": [0, 46],
+  "pad_ses": [17, 89],
+  "ses_bankasi": "tools/MS_Basic.sf3",
+  "olcu": {"giris": 8, "tema": 16, "breakdown": 8, "drop": 16, "final": 8},
+  "dinamik": {
+    "melodi": {"giris": 0.0, "tema": 0.8, "breakdown": 0.9, "drop": 1.0, "final": 0.75},
+    "pad": {"giris": 0.45, "tema": 0.6, "breakdown": 0.9, "drop": 0.7, "final": 0.5}
+  },
+  "seviye": {"melodi": 0.75, "pad": 0.4, "bas": 0.75, "davul": 0.9, "efekt": 0.35},
+  "pompa": 0.6,
+  "cikis": "final/remix_sax"
+}

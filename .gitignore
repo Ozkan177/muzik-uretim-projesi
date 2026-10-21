@@ -1,0 +1,23 @@
+# environment and downloaded tools (FluidSynth, Surge XT, soundfonts) - fetch them again, see README
+.venv/
+tools/
+__pycache__/
+
+# datasets: large, and Hooktheory data is licensed for academic use only (no redistribution)
+data/
+
+# model weights (some exceed GitHub's 100 MB limit)
+ckpt/
+
+# audio and bulk generated candidates (pieces are played anonymously in class)
+final/
+teslim/
+test_render/
+shortlist/
+makam_shortlist/
+makam_candidates*/
+candidates/
+pop_songs/
+*.wav
+*.mp3
+*.mid

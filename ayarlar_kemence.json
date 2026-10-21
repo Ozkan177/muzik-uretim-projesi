@@ -1,0 +1,70 @@
+{
+  "_aciklama": {
+    "tempo": "Dakikadaki dortluk sayisi. Daha hüzünlü = daha yavas (52-66 arasi iyi).",
+    "ton_kaydir": "Tum eseri yarim ses kaydirir. -2 = daha karanlik/pes, +2 = daha parlak.",
+    "keman_ses / cello_ses": "0-127 solo keman ve solo cello kanal sesi.",
+    "yayli_akor_ses / kontrbas_ses": "0-127 arkadaki yayli orkestra (keman grubu, viyola, cello grubu) ve kontrbas.",
+    "yanki / salon_buyuklugu": "Reverb miktari (0-127) ve salon buyuklugu (0-1, buyudukce katedral gibi).",
+    "vibrato": "0-127, uzun notalardaki titresim (notanin ortasinda yavasca acilir).",
+    "gecis_saniye": "Bolum gecislerinde ve enstruman giris/cikislarinda ses kac saniyede yumusakca acilip kapansin.",
+    "bolumler": "Sirayla calinir. melodi: ezgiler/ klasorunden dosya (huzun_ = minor, umut_ = major). solist: cello | keman | ikisi. keman_oktav: 1 = keman bir oktav yukarida. guc_baslangic/bitis: 0-1 dinamik (crescendo/diminuendo). max_saniye: bolum bu sureyi gecmesin. tempo_carpani: bolume ozel hiz. majore_cevir: true = ezgiyi majore cevirir (huzun temasi -> umut). genislet: 2 = notalar iki kat uzun (daha genis, sinematik). sadelestir: 0.5 = bu sureden (dortluk) kisa susleme notalarini bir onceki notaya katar. ostinato: 2 = viyola ve cello grubu sekizlik vurusla 'kosar' (sert, hizli his), 0 = uzun akorlar. kemence_oktav: kemencenin oktavi (-1 = pes ve koyu, 0 = yazili perde).",
+    "giris_saniye / bolum_arasi_nefes_saniye / son_tutma_saniye": "Giristeki orkestra akoru suresi, bolumler arasi bosluk (0 = kesintisiz), son notanin tutulma suresi.",
+    "ses_bankasi": "Enstruman sesleri. tools/MS_Basic.sf3 (MuseScore 4, ifadeli yaylilar) onerilir.",
+    "solo_ses": "kemence = melodiyi kemence taklidi calar (kaymalar, genis vibrato, genizden ton). keman_cello = eski hali.",
+    "kemence_ses": "0-127 kemence sesi."
+  },
+  "tempo": 58,
+  "ton_kaydir": 0,
+  "keman_ses": 115,
+  "cello_ses": 120,
+  "yayli_akor_ses": 80,
+  "kontrbas_ses": 85,
+  "yanki": 95,
+  "salon_buyuklugu": 0.9,
+  "vibrato": 55,
+  "gecis_saniye": 4,
+  "giris_saniye": 5,
+  "bolum_arasi_nefes_saniye": 0,
+  "son_tutma_saniye": 6,
+  "ses_bankasi": "tools/MS_Basic.sf3",
+  "bolumler": [
+    {
+      "ad": "huzun",
+      "melodi": "ezgiler/huzun_13_nihavent_sarki_duyek_014.json",
+      "solist": "cello",
+      "guc_baslangic": 0.6,
+      "guc_bitis": 0.75,
+      "max_saniye": 45,
+      "tempo_carpani": 1.0,
+      "kemence_oktav": -1
+    },
+    {
+      "ad": "umut",
+      "melodi": "ezgiler/huzun_13_nihavent_sarki_duyek_014.json",
+      "solist": "ikisi",
+      "keman_oktav": 1,
+      "guc_baslangic": 0.75,
+      "guc_bitis": 0.9,
+      "max_saniye": 38,
+      "tempo_carpani": 1.15,
+      "majore_cevir": true,
+      "genislet": 1,
+      "sadelestir": 0.3,
+      "ostinato": 2,
+      "kemence_oktav": 0
+    },
+    {
+      "ad": "huzun_donus",
+      "melodi": "ezgiler/huzun_13_nihavent_sarki_duyek_014.json",
+      "solist": "ikisi",
+      "guc_baslangic": 0.8,
+      "guc_bitis": 0.4,
+      "max_saniye": 35,
+      "tempo_carpani": 0.95,
+      "kemence_oktav": -1
+    }
+  ],
+  "cikis": "final/eser_kemence",
+  "solo_ses": "kemence",
+  "kemence_ses": 125
+}

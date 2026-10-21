@@ -1,0 +1,34 @@
+14.7M chars
+25.7M params
+it 0 train 4.657 val 4.624 lr 3.0e-06 3s
+it 500 train 1.179 val 1.329 lr 6.0e-04 137s
+it 1000 train 0.859 val 1.006 lr 5.9e-04 257s
+it 1500 train 0.775 val 0.925 lr 5.9e-04 377s
+it 2000 train 0.740 val 0.869 lr 5.8e-04 496s
+it 2500 train 0.706 val 0.848 lr 5.6e-04 615s
+it 3000 train 0.679 val 0.844 lr 5.5e-04 735s
+it 3500 train 0.658 val 0.819 lr 5.3e-04 854s
+it 4000 train 0.652 val 0.805 lr 5.1e-04 973s
+it 4500 train 0.631 val 0.796 lr 4.9e-04 1093s
+it 5000 train 0.619 val 0.791 lr 4.6e-04 1212s
+it 5500 train 0.615 val 0.787 lr 4.4e-04 1332s
+it 6000 train 0.595 val 0.769 lr 4.1e-04 1451s
+it 6500 train 0.580 val 0.784 lr 3.9e-04 1570s
+it 7000 train 0.576 val 0.766 lr 3.6e-04 1690s
+it 7500 train 0.561 val 0.776 lr 3.3e-04 1809s
+it 8000 train 0.547 val 0.761 lr 3.0e-04 1929s
+it 8500 train 0.529 val 0.770 lr 2.7e-04 2048s
+it 9000 train 0.530 val 0.768 lr 2.5e-04 2167s
+it 9500 train 0.513 val 0.769 lr 2.2e-04 2287s
+it 10000 train 0.504 val 0.786 lr 2.0e-04 2406s
+it 10500 train 0.491 val 0.758 lr 1.7e-04 2525s
+it 11000 train 0.480 val 0.786 lr 1.5e-04 2645s
+it 11500 train 0.467 val 0.803 lr 1.3e-04 2764s
+it 12000 train 0.469 val 0.787 lr 1.1e-04 2883s
+it 12500 train 0.460 val 0.788 lr 9.6e-05 3002s
+it 13000 train 0.448 val 0.796 lr 8.3e-05 3122s
+it 13500 train 0.440 val 0.797 lr 7.3e-05 3241s
+it 14000 train 0.440 val 0.801 lr 6.6e-05 3360s
+it 14500 train 0.426 val 0.782 lr 6.1e-05 3479s
+it 15000 train 0.431 val 0.798 lr 6.0e-05 3599s
+best val 0.7583777070045471
